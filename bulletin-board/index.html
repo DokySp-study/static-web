@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bulletin Board</title>
+</head>
+
+<body>
+    <div id="board">
+        <h1>Board Test</h1>
+        <table id="items">
+            <tr>
+                <td><div id="item"><a href="./diary/article01.html">1번 글</a></div></td>
+            </tr>
+            <tr>
+                <td><div id="item"><a href="./diary/article02.html">2번 글</a></div></td>
+            </tr>
+            <tr>
+                <td><div id="item"><a href="./diary/article03.html">3번 글</a></div></td>
+            </tr>
+
+            <!-- 게시글 내용을 늘리려면 tr 태그를 추가한다. -->
+            <!-- 그리고 a태그에 추가한 게시글의 html파일 주소를 입력한다. -->
+
+            <!-- tr태그에 링크를 거는 방법은 직접 구글에서 찾아볼 것! -->
+
+        </table>
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    #board {
+        margin: 0 auto;
+        /* div태그 가운데 정렬 */
+        width: 600px;
+        padding-top: 50px;
+    }
+    #items {
+        width: 100%;
+    }
+    #items td {
+        padding: 5px 0px 5px;
+    }
+    #item {
+        width: 100%;
+        padding: 15px 0 15px 30px;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px #AAAAAA;
+    }
+</style>
