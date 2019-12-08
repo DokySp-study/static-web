@@ -1,7 +1,7 @@
-# static-web
+# Static Web Page
 정적 홈페이지 제작을 위한 레포입니다.
 
-# bulletin-board
+## 1. bulletin-board
 > 게시판 기능을 간단하게 구현
 
 Static Web Page에서는 별도의 서버를 두지 않는 이상 DB 사용이 불가하므로
